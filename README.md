@@ -1,4 +1,7 @@
-# devtronic — Claude Code Plugin Marketplace
+# devtronic — Claude Code Plugin
+
+[![Version](https://img.shields.io/badge/version-1.2.6-blue)](https://github.com/r-bart/devtronic-plugin)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Agentic development toolkit for Claude Code. 35 skills, 15 agents, and workflow hooks for structured AI-assisted development.
 
@@ -21,9 +24,29 @@ npx devtronic init .
 
 ### Skills (35)
 
-Core workflow: `/devtronic:brief`, `/devtronic:spec`, `/devtronic:research`, `/devtronic:create-plan`, `/devtronic:execute-plan`, `/devtronic:generate-tests`, `/devtronic:summary`, `/devtronic:post-review`, `/devtronic:checkpoint`, `/devtronic:audit`, `/devtronic:investigate`, `/devtronic:learn`, `/devtronic:quick`, `/devtronic:scaffold`, and more.
+**Orientation and Research**
+`/brief`, `/research`, `/opensrc`
 
-Design phase: `/devtronic:design`, `/devtronic:design-research`, `/devtronic:design-define`, `/devtronic:design-ia`, `/devtronic:design-wireframe`, `/devtronic:design-spec`, `/devtronic:design-review`, `/devtronic:design-system`, and more.
+**Planning**
+`/spec`, `/create-plan`
+
+**Development**
+`/scaffold`, `/setup`, `/investigate`, `/worktree`
+
+**Execution**
+`/quick`, `/execute-plan`
+
+**Quality and Review**
+`/audit`, `/post-review`, `/generate-tests`
+
+**Session and Meta**
+`/checkpoint`, `/summary`, `/backlog`, `/learn`, `/create-skill`, `/devtronic-help`
+
+**Design Phase**
+`/design`, `/design-research`, `/design-define`, `/design-ia`, `/design-wireframe`, `/design-system`, `/design-system-define`, `/design-system-audit`, `/design-system-sync`, `/design-audit`, `/design-review`, `/design-spec`
+
+**Orchestration Addon**
+`/briefing`, `/recap`, `/handoff`
 
 ### Agents (15)
 
@@ -36,6 +59,18 @@ Design phase: `/devtronic:design`, `/devtronic:design-research`, `/devtronic:des
 - **Stop**: Quality gate before stopping
 - **SubagentStop**: Validate subagent completion
 - **PreCompact**: Auto-checkpoint before context compaction
+
+## How It Works
+
+This repository is a **Claude Code plugin marketplace**. It contains the skills, agents, and hooks that Claude Code fetches when you install the devtronic plugin.
+
+Content is **auto-synced from the devtronic CLI** on each release. When you install the plugin, Claude Code fetches and caches this repository automatically — no manual updates needed.
+
+## Contributing
+
+This repository is auto-generated from the main devtronic CLI. Do not submit pull requests here — they will be overwritten on the next release.
+
+To contribute, open issues or PRs on the source repo: [github.com/r-bart/devtronic](https://github.com/r-bart/devtronic)
 
 ## Links
 
