@@ -5,14 +5,10 @@
     "name": "r-bart",
     "url": "https://github.com/r-bart/devtronic"
   },
-  "metadata": {
-    "description": "Agentic development toolkit — skills, agents, and workflow hooks for structured AI-assisted development",
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "devtronic",
-      "source": "./devtronic",
+      "source": "./plugins/devtronic",
       "description": "35 skills, 15 agents, workflow hooks for agentic development"
     }
   ]
