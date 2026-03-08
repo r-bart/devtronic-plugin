@@ -1,7 +1,7 @@
 # devtronic — Claude Code Plugin
 
-[![Version](https://img.shields.io/badge/version-1.2.6-blue)](https://github.com/r-bart/devtronic-plugin)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/devtronic)](https://www.npmjs.com/package/devtronic)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Agentic development toolkit for Claude Code. 35 skills, 15 agents, and workflow hooks for structured AI-assisted development.
 
