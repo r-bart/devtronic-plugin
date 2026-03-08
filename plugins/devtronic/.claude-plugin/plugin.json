@@ -1,0 +1,12 @@
+{
+  "name": "devtronic",
+  "version": "1.2.6",
+  "description": "Agentic development toolkit — 35 skills, 15 agents, workflow hooks",
+  "author": {
+    "name": "r-bart",
+    "url": "https://github.com/r-bart/devtronic"
+  },
+  "homepage": "https://github.com/r-bart/devtronic",
+  "repository": "https://github.com/r-bart/devtronic-plugin",
+  "license": "MIT"
+}
